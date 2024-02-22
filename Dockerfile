@@ -1,6 +1,6 @@
-FROM python:3.10-slim-buster
+FROM python:3.7
 
-WORKDIR /app
+WORKDIR /src
 
 COPY ./app/requirements.txt requirements.txt
 
